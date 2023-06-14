@@ -1,0 +1,10 @@
+<!-- esta propiedad del input hace que funcione la búsqueda al pulsar enter (keyup.enter)="emitValue(txtInput.value)" -->
+
+<input
+  type="text"
+  class="form-control"
+  [placeholder]="placeholder"
+  (keyup)="onKeyPress( txtInput.value )"
+  [value]="initialValue"
+  #txtInput
+>
