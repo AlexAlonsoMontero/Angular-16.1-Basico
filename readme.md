@@ -24,3 +24,12 @@
             - Tap
             - Catch
     - Demo: https://angular16-countryapp.netlify.app/
+
+- HeroeesApp:  EN CONSTRUCCIÓN
+    - Se ha trabajado:
+        - Layouts
+        - LazyLoat
+        - Rutas y rutas hijas
+        - Multiples estilos en la misma SPA
+
+
