@@ -31,5 +31,7 @@
         - LazyLoat
         - Rutas y rutas hijas
         - Multiples estilos en la misma SPA
+        - Autenticación
+        
 
 
