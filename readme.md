@@ -1,7 +1,7 @@
 # Ejercicios nivel básico/medio angular actualización 2023
 
 ## Objetivo:
-- En este respositorio se encontrarán ejercicios de nivle básico o medio con los que he practicado y revisado las actualizaciones de Angular 16
+- En este respositorio se encontrarán ejercicios de nivle básico o medio con los que he practicado y revisado las actualizaciones de Angular 15 en 2023
 <hr>
 
 ## Ejercicios:
@@ -32,6 +32,23 @@
         - Rutas y rutas hijas
         - Multiples estilos en la misma SPA
         - Autenticación
-        
+        - Aplicación diferentes estilos por ruta
+        - Angular Material
+        - Interfaces y tipado
+        - Pipes personalizados
+        - Variables de entorno
+        - Autocomplete de AngularMaterial
+        - Peticiones HTTP
+        - JSON-Server
+        - Prime Flex
+        - CSS
+            - PrimeFlex
+            - Angular Material
+        - Autocompletar formularios
+        - Pipes puros e impuros
+        - Snacks
+        - Dialogs
+        - Inyección de servicios manualmente
+        - Formularios reactivos
 
 

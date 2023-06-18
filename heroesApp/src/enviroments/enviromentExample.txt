@@ -1,0 +1,4 @@
+//variables entorno para desarrollo
+export const enviroments ={
+  baseUrl: 'https://localhost:3000'
+}

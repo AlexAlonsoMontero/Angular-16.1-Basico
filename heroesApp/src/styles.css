@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+
+.max-height-image {
+  max-height: calc(100vh - 200px); /* Ajusta la altura máxima de la imagen según necesites, restando el espacio ocupado por otros elementos */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 0px;
+}
