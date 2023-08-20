@@ -21,7 +21,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
+      "characters": "Kal-El",
+      "alt_img": "https://content.eccediciones.com/productos/7999/Superman_97_18_1a_cubierta_baja.jpg"
     },
     {
       "id": "dc-flash",
@@ -169,13 +170,13 @@
       "characters": "Norrin Radd"
     },
     {
-      "superhero": "Alex",
-      "id": "Q_BIvKZ",
-      "publisher": "DC Comics",
-      "alter_ego": "krillin",
-      "first_appearance": "2015",
-      "characters": "krilin, alex jandro",
-      "alt_img": "https://pm1.aminoapps.com/6165/b7df64a0f318b9eb146f8549167b0682334839ed_00.jpg"
+      "superhero": "Alex Alonso",
+      "id": "xiowqKa",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Si",
+      "first_appearance": "marvel",
+      "characters": "MrMaravill",
+      "alt_img": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/03/571004-superman-mejores-comics-hombre-acero.jpg?tf=3840x"
     }
   ]
 }

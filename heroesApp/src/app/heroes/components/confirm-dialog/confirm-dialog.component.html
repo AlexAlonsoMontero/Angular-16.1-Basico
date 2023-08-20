@@ -1,0 +1,14 @@
+<h1 mat-dialog-title>Confirma el borrado del personaje ?</h1>
+<div mat-dialog-content>
+  <p>El borrado no es reversible</p>
+  <div>
+    <mat-label>Favorite Animal</mat-label>
+  </div>
+</div>
+<div mat-dialog-actions style="display: flex; justify-content: space-around">
+  <button mat-button (click)="onNoClick()" color="primary" cdkFocusInitial>
+    No gracias
+  </button>
+
+  <button mat-button (click)="onConfirm()" color="alert">Ok</button>
+</div>
