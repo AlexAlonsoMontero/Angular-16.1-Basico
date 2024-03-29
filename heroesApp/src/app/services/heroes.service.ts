@@ -2,11 +2,11 @@ import { Heroe } from './../heroes/interfaces/hero.interface';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, catchError, map, of } from 'rxjs';
-import { enviroments } from 'src/enviroments/enviroments';
+import { environments } from 'src/enviroments/environments.prod';
 
 @Injectable({ providedIn: 'root' })
 export class HeroesService {
-  private baseUrl: string = enviroments.baseUrl;
+  private baseUrl: string = environments.baseUrl;
 
   constructor(private http: HttpClient) {}
 
@@ -25,16 +25,10 @@ export class HeroesService {
   }
 
   addHeroe(heroe: Heroe): Observable<Heroe> {
-    console.log('====================================');
-    console.log('estoy addHeroe');
-    console.log('====================================');
     return this.http.post<Heroe>(`${this.baseUrl}/heroes`, heroe);
   }
 
   updateHeroe(heroe: Heroe): Observable<Heroe> {
-    console.log('====================================');
-    console.log('estoy updateHeroe');
-    console.log('====================================');
     if (!heroe.id)
       throw new Error('El id es requerido para actualizar un heroe');
 

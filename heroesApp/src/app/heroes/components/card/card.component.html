@@ -4,9 +4,12 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 0px;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
   "
 >
-  <mat-card-header>
+  <mat-card-header style="height: fit-content">
     <mat-card-title> {{ heroe.superhero }} </mat-card-title>
     <mat-card-subtitle>{{ heroe.alter_ego }} </mat-card-subtitle>
   </mat-card-header>
@@ -26,7 +29,7 @@
     </p>
   </mat-card-content>
   <mat-divider></mat-divider>
-  <mat-card-actions>
+  <mat-card-actions style="height: fit-content">
     <button mat-button mat-raised [routerLink]="['/heroes/edit', heroe.id]">
       <mat-icon>edit</mat-icon>
       Editar
